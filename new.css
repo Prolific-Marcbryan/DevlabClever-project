@@ -1,0 +1,65 @@
+
+
+#main { 
+    /* width: 800px; */
+    margin: 0 auto;
+}
+#lefttop    {
+    width: 50%;
+    height: 400px;
+    /* background: red; */
+    float: left;
+}
+
+#righttop  {
+    width: 50%;
+    /* background: #755858; */
+    background-image: url("https://www.clever.com/wp-content/uploads/2023/06/teenagers-at-desk.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    float: right;
+    /* margin-left: 200px; */
+}
+
+.textinfo{
+    margin-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.textinfo h1{
+    font-size: 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+<!----->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div id="main">
+    <div id="lefttop">
+      <div class="textinfo">
+        <h1>The <u>platform</u> powering digital learning for Schools</h1>
+        <p>At Clever, we securely connect the data and applications that schools rely on to make digital learning work better for everyone.</p></div>
+    </div>
+    <div id="righttop"></div>
+  </div>
+</body>
+</html>
+<!------->

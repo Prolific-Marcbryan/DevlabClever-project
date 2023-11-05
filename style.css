@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    font-family: "ABCArizonaMix",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    line-height: 1.5;
+    font-weight: 400;
+    color: #000;
+    background-color: #fff;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    
+}
+#info{
+    background: rgb(139, 14, 14) ;
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    font-weight: 500;
+}
+#info a{
+color: white;
+}
+/*Header*/
+#header{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: whitesmoke;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#navbar a{
+    text-decoration: none;
+    color: #0a1e46;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 550;
+    display: flex;
+   align-items: center;
+    transition: 0.3s ease;
+
+}
+#navbar li a:hover,
+#navbar li a.current{
+    color:#0A1E46 ;
+}
+
+#navbar li a.current::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: orange;
+    position: absolute;
+    bottom: -4px;
+
+
+}
+#navbar button{
+    background-color: blue;
+    color:whitesmoke ;
+    font-weight: 550;
+    width: 300px;
+    height: 60px;
+    border-radius: 15px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 16px;
+    border: 0;
+}
+.logo{
+    width: 90%;
+    height: 50px;
+}
+
